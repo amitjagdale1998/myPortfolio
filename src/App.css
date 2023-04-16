@@ -1,4 +1,7 @@
-
+.app-page
+{
+  overflow-x:none;
+}
 .navbar
 {
   display: flex;
@@ -52,11 +55,11 @@ span{
   #resume
   {
     
-    margin-top: 210%;
+    margin-top: 120%;
   }
   #contact
   {
-    margin-top:170% ;
+    margin-top:120% ;
   }
   .btns
   {

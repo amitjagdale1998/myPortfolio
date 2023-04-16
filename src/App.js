@@ -25,7 +25,7 @@ function App() {
   return (
    <>
    
-    
+    <div className='app-page'>
    <div className='col' >
    <ul className='navbar' >
     <li>HOME</li>
@@ -54,7 +54,7 @@ function App() {
    
    
    
-   
+    </div>
    
    </>
   );
