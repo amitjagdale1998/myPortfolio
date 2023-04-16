@@ -1,0 +1,42 @@
+.sidebar
+{
+    margin-left: 5%;
+}
+#tabpanel
+{
+
+   margin: -480px 2px 3px 4px !important;
+   margin-left: 30% !important; 
+   /* border: 1px solid black; */
+   /* margin-left: 10%; */
+   background-color: rgb(227, 237, 241) !important;
+}
+.tab
+{
+    border: 1px solid orangered !important;
+    border-radius: 50px !important;
+    margin-top: 2% !important;
+    color: orangered !important;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color:white !important; */
+}
+.tab:hover
+{
+    color: rgb(0, 0, 0) !important;
+    border:2px solid rgb(0, 0, 0) !important;
+}
+@media only screen and (max-width: 600px)  { 
+    #tabs
+    {
+        /* margin-left: 10px !important; */
+
+    }
+    #tabpanel
+    {
+                
+        margin: 0px 2px 3px 4px !important;
+      
+                
+    }
+}

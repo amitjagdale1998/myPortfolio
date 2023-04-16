@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  text-align:center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left:40%;
+ background-color: none;
+  position: absolute;
   color: white;
+  font-family: Impact, fantasy;
+  font-size:x-large;
+  font-style: normal;
+  
+}
+#resume,#contact
+{
+  margin-top: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+
+li{
+  margin-left: -70%;
+  list-style: none;
+}
+li:hover
+{
+  color: darkgoldenrod;
+}
+hr{
+  height: 1px;
+  background-color: black;
+  border: none;
+  width: 40%;
+  color: black;
+}
+p{
+  font-family: cursive;
+  font-size: large;
+}
+h4{
+  font-family: sans-serif;
+}
+span{
+  font-family: cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media only screen and (max-width: 500px  )  {
+  #resume
+  {
+    
+    margin-top: 220%;
   }
-  to {
-    transform: rotate(360deg);
+  #contact
+  {
+    margin-top:170% ;
   }
-}
+  .btns
+  {
+    margin-right: 20%;
+    margin-left: 0%;
+    justify-content: space-between;
+  }
+  .image
+  {
+    margin-top: 10%;
+    margin-right: -10% !important;
+    padding: 5% !important;
+    
+    
+  }
+  #btn1
+  {
+    margin-right: 20%;
+    width: 5%;
+  }
+  #btn2
+  {
+    margin-left: -12%;
+  }
+  .navbar
+  {
+   text-align: center;
+   font-size: small;
+  }
+  .myname
+  {
+    font-size: large !important;
+  }
+  .home-page
+  {
+    align-items: center !important;
+    align-self: center;
+    text-align: center;
+  }
+}  
+
+
+
+

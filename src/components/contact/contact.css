@@ -1,0 +1,22 @@
+.contact-page
+{ 
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: aliceblue;
+      position:relative;
+}
+.input
+{
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    
+    
+    
+    
+}
+.responsive
+{
+    height: 20vh;
+    width: 100%;
+}
+
