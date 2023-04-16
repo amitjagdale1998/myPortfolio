@@ -25,7 +25,7 @@ function App() {
   return (
    <>
    
-    <div className='app-page'>
+    <div className='app-page' align="center">
    <div className='col' >
    <ul className='navbar' >
     <li>HOME</li>
