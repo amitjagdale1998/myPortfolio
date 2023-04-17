@@ -80,7 +80,8 @@ export default function ResumeTab() {
         
       </Tabs>
       </div>
-      <div className='row' id='tabpanel'>
+      
+      <div className='row gy-5' id='tabpanel'>
       <TabPanel value={value} index={0}>
         <Education/>
       </TabPanel>

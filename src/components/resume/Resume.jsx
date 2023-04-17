@@ -9,10 +9,10 @@ function Resume() {
       style={{fontFamily:"Georgia, serif",fontSize:"250%" ,fontWeight:"bolder" ,
        color:"saddlebrown"}}>RESUME</span>
 
-       <h4>My formal Bio Detail</h4>
-       <hr></hr>
+       <h4 align="center">My formal Bio Detail</h4>
+       <hr></hr> 
        </div>
-      <div >
+      <div className='gy-5' >
         
         <ResumeTab/>
       </div>

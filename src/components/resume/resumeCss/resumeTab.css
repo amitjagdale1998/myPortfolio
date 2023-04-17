@@ -1,6 +1,6 @@
 .sidebar
 {
-    margin-left: 5%;
+    margin-left: 0%;
 }
 #tabpanel
 {
@@ -27,15 +27,11 @@
     border:2px solid rgb(0, 0, 0) !important;
 }
 @media only screen and (max-width: 600px)  { 
-    #tabs
-    {
-        /* margin-left: 10px !important; */
-
-    }
+    
     #tabpanel
     {
                 
-        margin: 0px 2px 3px 4px !important;
+        margin: 10px 2px 3px 4px !important;
       
                 
     }

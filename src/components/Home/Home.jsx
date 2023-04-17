@@ -4,7 +4,6 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import downloadResume from '../common/downloadResume';
-import Swal from 'sweetalert2/dist/sweetalert2.js'
 import './Home.css'
 const Home = () => {
   function email()
@@ -44,7 +43,7 @@ var wordflick = function () {
         }
       }
     }
-    part = words[i].substr(0, offset);
+    part = words[i].substring(0, offset);
     if (skip_count == 0) {
       if (forwards) {
         offset++;
@@ -66,7 +65,7 @@ window.addEventListener('load', function () {
 
   return (
     <div className='home-page' >
-           
+           {/* <WordFlick/> */}
         <div className="container ">
   <div className="row">
     <div className="col home-container" id='self-image' align="center">
